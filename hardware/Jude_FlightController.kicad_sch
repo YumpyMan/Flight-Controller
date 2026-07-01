@@ -10313,16 +10313,6 @@
 		)
 		(uuid "b2a76553-a2a0-45ea-aa56-fe5ed8932fe3")
 	)
-	(label ""
-		(at 41.91 54.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b7bb6664-9c1d-4259-866a-1e7b9bf77095")
-	)
 	(label "LED_STATUS"
 		(at 323.85 57.15 0)
 		(effects
@@ -10605,7 +10595,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 167.64 274.32 0)
 			(hide yes)
 			(show_name no)
@@ -10923,7 +10913,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 96.2152 269.24 0)
 			(hide yes)
 			(show_name no)
@@ -11061,7 +11051,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08192b0e-bb24-4129-ac25-15e63a892f70")
-		(property "Reference" "I2CPullupSDA"
+		(property "Reference" "I2CPullupSDA1"
 			(at 255.27 120.6499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11125,7 +11115,7 @@
 		(instances
 			(project "Jude_FlightController"
 				(path "/9932845b-f9a6-442a-bb24-38eb839f734b"
-					(reference "I2CPullupSDA")
+					(reference "I2CPullupSDA1")
 					(unit 1)
 				)
 			)
@@ -11460,7 +11450,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1033383c-d62e-4c6f-8204-d587d88bf0ae")
-		(property "Reference" "Cin"
+		(property "Reference" "Cin1"
 			(at 26.416 256.794 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11525,7 +11515,7 @@
 		(instances
 			(project "Jude_FlightController"
 				(path "/9932845b-f9a6-442a-bb24-38eb839f734b"
-					(reference "Cin")
+					(reference "Cin1")
 					(unit 1)
 				)
 			)
@@ -12781,7 +12771,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 187.96 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -12843,7 +12833,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "33ff8c59-ac26-434a-b142-f734c2d30497")
-		(property "Reference" "Rfbt"
+		(property "Reference" "Rfbt1"
 			(at 79.756 261.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12907,7 +12897,7 @@
 		(instances
 			(project "Jude_FlightController"
 				(path "/9932845b-f9a6-442a-bb24-38eb839f734b"
-					(reference "Rfbt")
+					(reference "Rfbt1")
 					(unit 1)
 				)
 			)
@@ -12946,7 +12936,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 167.64 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -13379,7 +13369,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 167.64 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -13596,7 +13586,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "43a2c096-2dbb-4103-84b8-f3ae76353de9")
-		(property "Reference" "Cout"
+		(property "Reference" "Cout2"
 			(at 87.376 263.398 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13618,7 +13608,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 87.3252 269.24 0)
 			(hide yes)
 			(show_name no)
@@ -13660,7 +13650,7 @@
 		(instances
 			(project "Jude_FlightController"
 				(path "/9932845b-f9a6-442a-bb24-38eb839f734b"
-					(reference "Cout")
+					(reference "Cout2")
 					(unit 1)
 				)
 			)
@@ -14957,7 +14947,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:LQFP-64_L10.0-W10.0-P0.50-LS12.0-BL"
+		(property "Footprint" "Package_QFP:LQFP-64_10x10mm_P0.5mm"
 			(at 355.6 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -15818,7 +15808,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 187.96 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -16387,7 +16377,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 277.8252 261.62 0)
 			(hide yes)
 			(show_name no)
@@ -16544,7 +16534,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 82.55 171.7548 0)
 			(hide yes)
 			(show_name no)
@@ -16958,7 +16948,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b951570-c024-4f1e-8d96-ee9dc52bb260")
-		(property "Reference" "Rfbb"
+		(property "Reference" "Rfbb1"
 			(at 80.01 269.2399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17022,7 +17012,7 @@
 		(instances
 			(project "Jude_FlightController"
 				(path "/9932845b-f9a6-442a-bb24-38eb839f734b"
-					(reference "Rfbb")
+					(reference "Rfbb1")
 					(unit 1)
 				)
 			)
@@ -18418,7 +18408,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:LED1206-R-RD_RED"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 369.57 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -18985,7 +18975,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8ad80cd-a78b-46d6-aea9-36f350f7cd31")
-		(property "Reference" "I2CPullupSCL"
+		(property "Reference" "I2CPullupSCL1"
 			(at 255.27 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19049,7 +19039,7 @@
 		(instances
 			(project "Jude_FlightController"
 				(path "/9932845b-f9a6-442a-bb24-38eb839f734b"
-					(reference "I2CPullupSCL")
+					(reference "I2CPullupSCL1")
 					(unit 1)
 				)
 			)
@@ -19306,7 +19296,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c2a7a8cc-d67f-42d5-9ef7-e032b861914a")
-		(property "Reference" "Cboot"
+		(property "Reference" "Cboot1"
 			(at 65.786 250.698 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19370,7 +19360,7 @@
 		(instances
 			(project "Jude_FlightController"
 				(path "/9932845b-f9a6-442a-bb24-38eb839f734b"
-					(reference "Cboot")
+					(reference "Cboot1")
 					(unit 1)
 				)
 			)
@@ -19725,7 +19715,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_01005_0402Metric"
+		(property "Footprint" "easyeda2kicad:IND-SMD_L3.0-W3.0"
 			(at 72.39 257.81 0)
 			(hide yes)
 			(show_name no)
@@ -19806,7 +19796,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 187.96 274.32 0)
 			(hide yes)
 			(show_name no)
